@@ -14,7 +14,7 @@ app.get("/", (req, res) => {
 app.get("/register", (req, res) => {
 	res.render("register");
 });
-
+// post request
 app.post(
 	"/register",
 	urlencodedParser,
